@@ -1,5 +1,7 @@
 mod back_button;
 mod background;
+mod bird_selector;
+mod bird_selector_ui;
 mod level;
 mod loading;
 mod piggies;
@@ -73,6 +75,8 @@ fn main() {
         back_button::plugin,
         piggies::plugin,
         piggies_ui::plugin,
+        bird_selector::plugin,
+        bird_selector_ui::plugin,
     ));
 
     // this runs the game
